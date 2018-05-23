@@ -2,8 +2,8 @@
 This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Jonathan Collins.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -30,9 +30,11 @@ def double_a_float():
          -6.28
     """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # Done: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
+    num=float(input('Please insert floating point number.'))
+    print(num * 2)
 
 
 def print_an_integer_many_times():
@@ -61,9 +63,12 @@ def print_an_integer_many_times():
          10
     """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # Done: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
+    num=int(input('Enter an integer:'))
+    for k in range(num):
+        print(num * 2)
 
 
 def print_an_integer_many_times_on_one_row():
@@ -80,12 +85,17 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # Done: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # ------------------------------------------------------------------
+    num = int(input('Enter an integer:'))
+    k=str(num * 2)
+    print(k*num)
+
+
 
 
 def input_it_all():
@@ -120,9 +130,20 @@ def input_it_all():
          Peace & Love.
     """
     # ------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # Done: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
+    flopo = float(input('Insert floating point number: '))
+    integrr = int(input('Insert integer: '))
+    sting = str(input('Insert string: '))
+    rooflo = flopo ** 0.5
+
+    for k in range(integrr):
+        print(rooflo)
+
+    for k in range(integrr):
+        print(sting)
+
 
 
 # ----------------------------------------------------------------------
